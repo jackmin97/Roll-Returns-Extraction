@@ -37,4 +37,4 @@ USD 1.37 is the contract cost for 1 lot or 5000 units of the underlying asset.
 In order to extract roll returns we will be buying/selling both the futures contract and the ETF. Thus, we multiply the cost by 2.
 
 ### Conclusion
-he strategy was able to give a 21% return over a period of around one year with a max drawdown of 4.91%. 
+The strategy was able to give a 21% return over a period of around one year with a max drawdown of 4.91%. 
