@@ -20,8 +20,6 @@ Roll returns are the excess cost or benefits of owning the underlying assets. It
 
 Roll returns = Futures Returns - Spot Returns 
 
-In the code below:
-
 1) We first calculate the roll returns as the difference in the near-term future returns, and the ETF and SLV, which tracks the silver spot.
 
 2) After that, we calculate the position based on the term structure. That is if the term structure is in contango or backwardation. If near futures prices are greater than the spot, the term structure is in contango. Or else it is in backwardation. In contango, we take a short position on the futures prices and long position on the spot prices. In the case of backwardation, we take a long position on the futures prices and short prices on the spot prices. While it is extremely rare to have a situation where the near future prices are equal to the spot price, this would lead to no signal being generated.
